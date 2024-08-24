@@ -1,0 +1,75 @@
+/* example-1 */
+#draggable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 10px;
+    background-color: red;
+    border-radius: 50%;
+ }
+#draggable p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* example-2 */
+ #droppable { 
+    width: 500px; 
+    height: 300px; 
+    margin: 10px;
+    padding: 10px;
+    background-color: gray;
+ }
+
+
+ /* example-3 */
+ #resizable {
+     width: 150px;
+     height: 150px; 
+     padding: 0.5em; 
+    }
+
+ #resizable p { 
+    text-align: center; 
+    margin: 0;
+ }
+
+ /* example-4 */
+
+  #selectable{
+    list-style-type: none;
+    width: 60%;
+  }
+
+  #selectable li{
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    height: 50px;
+  }
+
+  
+  #selectable .ui-selected { background: #F39814; color: white; }
+
+  #selectable .ui-selecting{
+    background-color: aqua;
+  }
+
+/* example-5 */
+  #sortable { 
+    list-style-type: none; 
+    width: 60%; 
+    }
+
+  #sortable li { 
+    margin-bottom: 10px;
+    padding: 10px 40px;
+    font-size: 20px; 
+    height: 50px; 
+    }
+
+  #sortable li span { 
+    margin: 8px -15px;
+    position: absolute;
+    
+    }
+ 
